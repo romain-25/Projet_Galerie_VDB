@@ -1,0 +1,18 @@
+/************* TABLEAUX *************/
+#paintings{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: 980px;
+
+
+}
+
+#paintings .col-8{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 250px;
+}
+
+#paintings #carouselExampleControls{
+    padding-top: 250px;
+}
