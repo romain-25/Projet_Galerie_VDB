@@ -4,6 +4,13 @@ header {
 
     border-style: solid;
     border-width: 5px;
+
+
+    color: #5a5a5a;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+
 }
 
 .carousel-item p {
@@ -23,4 +30,32 @@ header {
 .carousel-indicators .active {
 
     background-color: #000000;
+}
+
+/* css Photographies */
+.titre h1 {
+
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+.float-text {
+
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.float-img {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
