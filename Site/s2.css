@@ -1,0 +1,81 @@
+@font-face 
+{
+font-family: 'msl';
+src: url('MSL.otf');
+}
+
+@font-face 
+{
+font-family: 'quicks';
+src: url('Quicksand.otf');
+} 
+     
+@font-face 
+{
+font-family: 'quicksB';
+src: url('QuicksandB.otf');
+}  
+
+     
+@font-face 
+{
+font-family: 'quicksL';
+src: url('QuicksandL.otf');
+}  
+
+
+.s2{
+    height: 1080px;
+    width: 1920px;
+    background-image: url(assets/img/fond.png);
+    background-size: cover;  
+    background-position: center;
+}
+
+.marge{
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+
+.enflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullimage{
+    margin-top: 7%;
+}
+.ligne1{
+    width: 900px;
+}
+
+.ligne2{
+    width: 900px;
+}
+
+.divphoto{
+    width: 350px;
+    height: auto;
+    padding-top: 15%;
+}
+
+.h2photo{
+    font-family: 'msl';
+    font-size: 50px;
+    font-weight: 0;
+}
+
+.h3photo{
+    font-family: 'quicks';
+    font-size: 30px;
+}
+
+.textphoto{
+    font-family: 'quicks';
+    font-size: 25px;
+}
+
+.img{
+    padding: 10px;
+}
