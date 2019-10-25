@@ -1,0 +1,26 @@
+header {
+
+    /* border-style: inset;*/
+
+    border-style: solid;
+    border-width: 5px;
+}
+
+.carousel-item p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.carousel-indicators li {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    background: #353635;
+
+}
+
+.carousel-indicators .active {
+
+    background-color: #000000;
+}
