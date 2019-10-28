@@ -14,7 +14,7 @@
   border-style: solid;
   border-width: 5px;
 
-  height: calc(100vh - 1px);
+  height: calc(100vh - 15%);
 }
 
 /******************css HEADER*********************/
@@ -402,10 +402,7 @@ textarea{
     z-index: 9000;
     position: relative;
     right: 0;
-    left: 100%;
     bottom: 0;
-    width: 651px;
-    height: 744px;
 
 }
 
