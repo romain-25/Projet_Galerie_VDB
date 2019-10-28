@@ -1,4 +1,53 @@
 /*******css general **************/
+body{
+  width: 100%;
+}
+p{
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 26px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 65px;
+  font-family: 'ModernSans Light';
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'ModernSans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ModernSans Light'), url('ModernSans-Light.otf') format('woff');
+  }
+
+#beton{
+  background: no-repeat url(beton1.jpg);
+  background-position: center;
+  height: calc(100vh - 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beton1{
+  background: no-repeat url(beton2.jpg);
+  background-position: center;
+  height: calc(100vh - 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 #top {
   position: absolute;
   top: 0;
@@ -65,19 +114,18 @@ header {
 #paintings{
     background: no-repeat url(fond.png);
     background-position: center;
-    height: calc(100vh - 1px);
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 980px;
-    padding-top: 5%;
+    padding-top: 1%;
 
 }
 
-#paintings .col-8 {
+#paintings .col-10 {
   text-align: center;
-  margin-left: 100px;
-  padding-top: 35%;
+  margin-left: 1%;
+  padding-top: 10%;
 }
 
 #paintings #carouselExampleControls {
@@ -89,12 +137,12 @@ header {
 
 @media (max-width: 991.98px) {
   #paintings .col-8 {
-    padding-top: 50px;
+    padding-top: 0%;
     margin-left: 60px;
   }
 
   #paintings #carouselExampleControls {
-    padding-top: 50px;
+    padding-top: 0%;
   }
 }
 
@@ -105,14 +153,15 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 980px;
-    padding-top: 5%;
+    height: 800px;
+    padding-top: 1%;
 }
 
-#photographies2 .col-8{
-    text-align: center;
-    margin-left: 100px;
-    padding-top: 40%;
+#photographies2 .col-10{
+  text-align: center;
+  margin-left: 1%;
+  padding-top: 10%;
+  float: right;
 
 }
 
@@ -130,20 +179,20 @@ header {
 
 @media (max-width: 991.98px) {
     #photographies2 .col-8{
-        padding-top: 50px;
+        padding-top: 0px;
         margin-left: 60px;
     
     }
     
     .image_photographies{
     
-        padding-top: 1%px;
+        padding-top: 0%;
 
     
     }
 
     .image_photographies{
-        padding-top:15%;
+        padding-top: 0%;
         height: 100%;
         width: 100%;
         padding-left: 10%;
@@ -167,19 +216,18 @@ header {
 #event{
     background: no-repeat url(fond.png);
     background-position: center;
-    height: calc(100vh - 1px);
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 980px;
-    padding-top: 5%;
+    padding-top: 1%;
 
 }
 
-#event .col-8 {
+#event .col-10 {
   text-align: center;
-  margin-left: 100px;
-  padding-top: 35%;
+  margin-left: 1%;
+  padding-top: 10%;
 }
 
 
@@ -198,23 +246,23 @@ header {
 
 @media (max-width: 991.98px) {
 
-    #event .col-8{
-        padding-top: 50px;
+    #event .col-10{
+        padding-top: 0px;
         margin-left: 60px;
     
     }
     
     .image_events{
     
-        padding-top: 50px;
+        padding-top: 0px;
 
     
     }
 
     .image_events{
-        padding-top:15%;
-        height: 50%px;
-        width: 50%;
+        padding-top:0%;
+        height: 50%;
+        width: 100%;
         padding-left: 40%;
     }
 
@@ -343,7 +391,9 @@ header {
 
 /*********css formulaire *************************/
 #formulaire{
-    padding-top: 5%;
+    padding-top: 1%;
+    height: 800px;
+    
 }
 
 .leborder{
@@ -373,6 +423,7 @@ section.formulaire{
 .formulaire h1 {
     float: right;
     margin-right: 40px;
+    margin-bottom: 50px;
 }
 
 .formulaire .btn {
@@ -409,10 +460,11 @@ textarea{
 }
 
 .arbre{
-    z-index: 9000;
     position: relative;
-    right: 0;
-    bottom: 0;
+    margin-left: 800px;
+    margin-top: 80px;
+    height: 500px;
+    width: 600px;
 
 }
 
@@ -439,6 +491,10 @@ textarea{
         margin: 0 auto;
         width: auto;
         /* value of your choice which suits your alignment */
+    }
+
+    .arbre{
+      display: none;
     }
 
 

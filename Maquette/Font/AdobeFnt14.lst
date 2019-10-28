@@ -1,0 +1,247 @@
+%!Adobe-FontList 1.14
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CopperplateGothic-Bold
+FamilyName:Copperplate Gothic Bold
+StyleName:Regular
+FullName:Copperplate Gothic Bold
+MenuName:Copperplate Gothic Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Copperplate Gothic Bold Regular.ttf
+DataFormat:sfntData
+FileLength:56096
+FileModTime:1572281652
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CopperplateGothic-Bold
+FamilyName:Copperplate Gothic Bold
+StyleName:Regular
+FullName:Copperplate Gothic Bold
+MenuName:Copperplate Gothic Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\CopperplateGothicBold.ttf
+DataFormat:sfntData
+FileLength:56104
+FileModTime:1572281652
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CopperplateGothic-Bold
+FamilyName:Copperplate Gothic Bold
+StyleName:Regular
+FullName:Copperplate Gothic Bold
+MenuName:Copperplate Gothic Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\COPRGTB.TTF
+DataFormat:sfntData
+FileLength:61552
+FileModTime:1572281652
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CopperplateGothic-Light
+FamilyName:Copperplate Gothic Light
+StyleName:Regular
+FullName:Copperplate Gothic Light
+MenuName:Copperplate Gothic Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\COPRGTL.TTF
+DataFormat:sfntData
+FileLength:62716
+FileModTime:1572281652
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ModernSansLight
+FamilyName:Modern Sans
+StyleName:Light
+FullName:Modern Sans Light
+MenuName:Modern Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\ModernSans-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:33340
+FileModTime:1572281652
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBold-Regular
+FamilyName:Quicksand
+StyleName:Bold
+FullName:Quicksand Bold Regular
+MenuName:Quicksand Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37812
+FileModTime:1572281652
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBoldOblique-Regular
+FamilyName:Quicksand
+StyleName:Bold Oblique
+FullName:Quicksand Bold Oblique Regular
+MenuName:Quicksand Bold Oblique
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Bold_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:38172
+FileModTime:1572281652
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBook-Regular
+FamilyName:Quicksand
+StyleName:Book
+FullName:Quicksand Book Regular
+MenuName:Quicksand Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:36656
+FileModTime:1572281652
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBookOblique-Regular
+FamilyName:Quicksand
+StyleName:Book Oblique
+FullName:Quicksand Book Oblique Regular
+MenuName:Quicksand Book Oblique
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Book_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:38752
+FileModTime:1572281652
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandDash-Regular
+FamilyName:Quicksand
+StyleName:Dash
+FullName:Quicksand Dash Regular
+MenuName:Quicksand Dash
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Dash.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:60244
+FileModTime:1572281652
+WeightClass:200
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandLight-Regular
+FamilyName:Quicksand
+StyleName:Light
+FullName:Quicksand Light Regular
+MenuName:Quicksand Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35504
+FileModTime:1572281652
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandLightOblique-Regular
+FamilyName:Quicksand
+StyleName:Light Oblique
+FullName:Quicksand Light Oblique Regular
+MenuName:Quicksand Light Oblique
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\xampp\GitHub\Projet_Galerie_VDB\Maquette\Font\Quicksand_Light_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:36548
+FileModTime:1572281652
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
