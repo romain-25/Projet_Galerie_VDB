@@ -89,6 +89,9 @@ header {
     padding-top: 40%;
 
 }
+.carousel-inner{
+    box-shadow: 8px 8px 12px #555;
+}
 
 @media (max-width: 991.98px) {
     #paintings .col-8{
@@ -114,7 +117,7 @@ header {
 
     margin-top: 0px;
 
-    background-image: url("../img/fond.png");
+    background: no-repeat url(fond.png);
     /* Full height */
 
 
@@ -199,6 +202,8 @@ header {
     .image_events{
     
         padding-top: 50px;
+        height: 100%;
+        width: 100%;
     
     }
 }
