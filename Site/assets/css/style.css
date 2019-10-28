@@ -1,377 +1,335 @@
 /*******css general **************/
 #top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    padding: 0;
-    margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .accueil {
+  /* border-style: inset;*/
 
-    /* border-style: inset;*/
+  border-style: solid;
+  border-width: 5px;
 
-    border-style: solid;
-    border-width: 5px;
-
-    height: calc(100vh - 1px);
-
+  height: calc(100vh - 1px);
 }
-
-
 
 /******************css HEADER*********************/
 
 header {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .img-pd {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .ul-pd {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .ul-pd ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /****************css carousel************************/
 .carousel-indicators {
-    position: absolute;
-    bottom: -100px;
+  position: absolute;
+  bottom: -100px;
 }
 
 .carousel-item p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
 }
 
 .carousel-indicators li {
-
-
-    border-radius: 100%;
-    width: 10px;
-    height: 10px;
-    background: #999;
-    bottom: 50px;
-
-
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background: #999;
+  bottom: 50px;
 }
 
 .carousel-indicators .active {
-
-    background-color: #000000;
+  background-color: #000000;
 }
 
 /************* TABLEAUX *************/
-#paintings{
-    background: no-repeat url(fond.png);
-    background-position: center;
-    height: 980px;
-    width: 100%;
+#paintings {
+  background: no-repeat url(fond.png);
+  background-position: center;
+  height: 980px;
+  width: 100%;
 }
 
-#paintings .col-8{
-    text-align: center;
-    margin-left: 100px;
-    padding-top: 35%;
-
+#paintings .col-8 {
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 35%;
 }
 
-#paintings #carouselExampleControls{
-
-    padding-top: 40%;
-
+#paintings #carouselExampleControls {
+  padding-top: 40%;
 }
 
 @media (max-width: 991.98px) {
-    #paintings .col-8{
-        padding-top: 50px;
-        margin-left: 60px;
-    
-    }
-    
-    #paintings #carouselExampleControls{
-    
-        padding-top: 50px;
-    
-    }
+  #paintings .col-8 {
+    padding-top: 50px;
+    margin-left: 60px;
+  }
+
+  #paintings #carouselExampleControls {
+    padding-top: 50px;
+  }
 }
 
 /* css Photographies */
 
 .photographies,
 .formulaire {
-    border-style: solid;
-    border-width: 5px;
-    height: calc(100vh - 1px);
+ /* border-style: solid;
+  border-width: 5px;*/
+  height: calc(100vh - 1px);
 
-    margin-top: 0px;
+  margin-top: 0px;
 
-    background-image: url("../img/fond.png");
-    /* Full height */
+  background-image: url("../img/fond.png");
+  /* Full height */
 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photographies h1 {
-    float: right;
-    margin-right: 40px;
-
-
+  float: right;
+  margin-right: 40px;
 }
 
 .photographies p {
-
-    text-align: center;
-    margin-right: 0;
-    margin-top: 30%;
-    margin-right: 0%;
-    margin-left: 20%;
-
+  text-align: center;
+  margin-right: 0;
+  margin-top: 30%;
+  margin-right: 0%;
+  margin-left: 20%;
 }
 
 .photographies img {
-    margin-top: 0%;
-    margin-bottom: 20px;
-    margin-left: 0%;
-    margin-right: 0%;
-
-
+  margin-top: 0%;
+  margin-bottom: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .photographies .img-pd {
-    margin-top: 10%;
-    margin-right: 30%;
-    margin-left: 0px;
+  margin-top: 10%;
+  margin-right: 30%;
+  margin-left: 0px;
 }
 
 .pd-20 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /************* EVENTS *************/
 
-#event{
-    background: no-repeat url(fond.png);
-    background-position: center;
-    height: 980px;
-    width: 100%;
+#event {
+  background: no-repeat url(fond.png);
+  background-position: center;
+  height: 980px;
+  width: 100%;
 }
 
-#event .col-8{
-    text-align: center;
-    margin-left: 100px;
-    padding-top: 35%;
-
+#event .col-8 {
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 35%;
 }
 
-
-
-.image_events{
-    padding-top:15%;
-    height: 700px;
-    width: 700px;
+.image_events {
+  padding-top: 15%;
+  height: 700px;
+  width: 700px;
 }
 
 .image_events img {
-    padding-right: 25px;
-    padding-bottom: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 991.98px) {
-    #event .col-8{
-        padding-top: 50px;
-        margin-left: 60px;
-    
-    }
-    
-    .image_events{
-    
-        padding-top: 50px;
-    
-    }
+  #event .col-8 {
+    padding-top: 50px;
+    margin-left: 60px;
+  }
+
+  .image_events {
+    padding-top: 50px;
+  }
 }
 
 /*css les photos ****/
 #myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #myImg:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
 }
 
 /* Caption of Modal Image */
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
 }
 
 /* Add Animation */
 .modal-content,
 #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(0)
-    }
+  from {
+    -webkit-transform: scale(0);
+  }
 
-    to {
-        -webkit-transform: scale(1)
-    }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes zoom {
-    from {
-        transform: scale(0)
-    }
+  from {
+    transform: scale(0);
+  }
 
-    to {
-        transform: scale(1)
-    }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
+  .modal-content {
+    width: 100%;
+  }
 }
-
 
 /********************EVENT************************/
 
-
-
 /*********css formulaire *************************/
 .formulaire .center_div {
-    margin: 0 auto;
-    width: 50%
-        /* value of your choice which suits your alignment */
+  margin: 0 auto;
+  width: 50%;
+  /* value of your choice which suits your alignment */
 }
 
 .formulaire h1 {
-    float: right;
-    margin-right: 40px;
-
-
+  float: right;
+  margin-right: 40px;
 }
 
 .formulaire .btn {
-    float: left;
-    width: 50%;
-
+  float: left;
+  width: 50%;
 }
 
 /***********media queries***********************/
 
 @media screen and (max-width: 1280px) {
+  /* Rédigez vos propriétés CSS ici */
+  .accueil {
+    /* border-style: inset;*/
 
-    /* Rédigez vos propriétés CSS ici */
-    .accueil {
+    border-style: solid;
+    border-width: 2px;
 
-        /* border-style: inset;*/
+    height: auto;
+  }
 
-        border-style: solid;
-        border-width: 5px;
-
-        height: 120%;
-
-    }
-
-    .carousel-indicators {
-        display: none;
-        /*   position: absolute;
+  .carousel-indicators {
+    display: none;
+    /*   position: absolute;
         bottom: 0px;*/
-    }
+  }
 
+  .photographies img {
+    width: 100px;
+    height: 100px;
+  }
 
-
-    .photographies img {
-        width: 100px;
-        height: 100px;
-
-
-    }
-
-    .formulaire .center_div {
-        margin: 0 auto;
-        width: auto;
-        /* value of your choice which suits your alignment */
-    }
-
+  .formulaire .center_div {
+    margin: 0 auto;
+    width: auto;
+    /* value of your choice which suits your alignment */
+  }
 }
