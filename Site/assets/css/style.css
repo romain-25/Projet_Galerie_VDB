@@ -400,11 +400,13 @@ textarea{
 
 .arbre{
     z-index: 9000;
-    position: absolute;
+    position: relative;
     right: 0;
+    left: 100%;
     bottom: 0;
-    width: 45vw;
-    height: 80vh;
+    width: 651px;
+    height: 744px;
+
 }
 
 /***********media queries***********************/
