@@ -17,6 +17,7 @@
   height: calc(100vh - 15%);
 }
 
+
 /******************css HEADER*********************/
 
 header {
@@ -69,6 +70,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 
 }
 
@@ -104,6 +106,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 }
 
 #photographies2 .col-8{
@@ -169,6 +172,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 
 }
 
@@ -338,6 +342,10 @@ header {
 /********************EVENT************************/
 
 /*********css formulaire *************************/
+#formulaire{
+    padding-top: 5%;
+}
+
 .leborder{
     width: 80vw;
     height: 70vh;
