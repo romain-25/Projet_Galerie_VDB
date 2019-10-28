@@ -336,20 +336,75 @@ header {
 /********************EVENT************************/
 
 /*********css formulaire *************************/
+.leborder{
+    width: 80vw;
+    height: 70vh;
+    border: solid 5px black;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+} 
+
+.element.style{
+    margin-left: 5%;
+}
 .formulaire .center_div {
-  margin: 0 auto;
-  width: 50%;
-  /* value of your choice which suits your alignment */
+    margin: 0 auto;
+    width: 50%
+        /* value of your choice which suits your alignment */
+}
+
+section.formulaire{
+    position: relative;
 }
 
 .formulaire h1 {
-  float: right;
-  margin-right: 40px;
+    float: right;
+    margin-right: 40px;
 }
 
 .formulaire .btn {
-  float: left;
-  width: 50%;
+    width: 20vw;
+}
+
+.taille-contact1{
+    width: 30vw;
+    height: 5vh;
+}
+
+.taille-contact2{
+    width: 30vw;
+    height: 5vh;
+}
+
+.taille-contact3{
+    width: 40vw;
+    height: 15vh;
+}
+
+.taille-contact4{
+    width: 20vw;
+    
+}
+
+.custom-select{
+    display: block;
+    width: 30vw;
+}
+
+textarea{
+    resize: none;
+}
+
+.arbre{
+    z-index: 9000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45vw;
+    height: 80vh;
 }
 
 /***********media queries***********************/
