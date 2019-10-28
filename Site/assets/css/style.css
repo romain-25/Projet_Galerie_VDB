@@ -114,10 +114,10 @@ header {
 }
 
 .image_photographies{
-    padding-top:45%;
+    padding-top:35%;
     padding-left: 10%;
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
 }
 
 .image_photographies img {
@@ -226,6 +226,8 @@ header {
     padding: 0rem;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 
 #myImg:hover {
