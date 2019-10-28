@@ -69,6 +69,41 @@ header {
     background-color: #000000;
 }
 
+/************* TABLEAUX *************/
+#paintings{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: 980px;
+    width: 100%;
+}
+
+#paintings .col-8{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 35%;
+
+}
+
+#paintings #carouselExampleControls{
+
+    padding-top: 40%;
+
+}
+
+@media (max-width: 991.98px) {
+    #paintings .col-8{
+        padding-top: 50px;
+        margin-left: 60px;
+    
+    }
+    
+    #paintings #carouselExampleControls{
+    
+        padding-top: 50px;
+    
+    }
+}
+
 /* css Photographies */
 
 .photographies,
@@ -123,6 +158,49 @@ header {
 
 .pd-20 {
     padding-top: 20px;
+}
+
+/************* EVENTS *************/
+
+#event{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: 980px;
+    width: 100%;
+}
+
+#event .col-8{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 35%;
+
+}
+
+
+
+.image_events{
+    padding-top:15%;
+    height: 700px;
+    width: 700px;
+}
+
+.image_events img {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 991.98px) {
+    #event .col-8{
+        padding-top: 50px;
+        margin-left: 60px;
+    
+    }
+    
+    .image_events{
+    
+        padding-top: 50px;
+    
+    }
 }
 
 /*css les photos ****/
