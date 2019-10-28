@@ -43,7 +43,7 @@
                   <a class="nav-link" href="#event">EVENTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">CONTACT</a>
+                  <a class="nav-link" href="#formulaire">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -251,22 +251,34 @@
 **********************************************Default form contact**********************************************
 ************************************************************************************************** -->
 
-    <section class="formulaire" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1>CONTACT</h1>
-          </div>
+<section class="formulaire">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>CONTACT</h1>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="center_div">
-            <form class="text-center border border-light p-5" action="#!">
+      <div class="row">
+        <div class style="margin-left: 5vw">
+          <div class="leborder">
+            <form class="border border-light p-5" action="#!">
               <!-- Name -->
-              <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" />
+              <input
+                type="text"
+                id="defaultContactFormName"
+                class="form-control mb-4 taille-contact1"
+                placeholder="Name"
+                
+              />
 
               <!-- Email -->
-              <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" />
+              <input
+                type="email"
+                id="defaultContactFormEmail"
+                class="form-control mb-4 taille-contact2"
+                placeholder="E-mail"
+              />
 
               <!-- Subject -->
               <label>Subject</label>
@@ -275,31 +287,42 @@
                 <option value="1" selected>Feedback</option>
                 <option value="2">Report a bug</option>
                 <option value="3">Feature request</option>
-                <option value="4">Feature request</option>
               </select>
 
               <!-- Message -->
               <div class="form-group">
-                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                  placeholder="Message"></textarea>
+                <textarea
+                  class="form-control rounded-0 taille-contact3"
+                  id="exampleFormControlTextarea2"
+                  rows="4"
+                  placeholder="Message"
+                ></textarea>
               </div>
 
               <!-- Copy -->
               <div class="custom-control custom-checkbox mb-4">
-                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" />
-                <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
-                  message</label>
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="defaultContactFormCopy"
+                />
+                <label class="custom-control-label" for="defaultContactFormCopy"
+                  >Send me a copy of this message</label
+                >
               </div>
 
               <!-- Send button -->
-              <button class="btn btn-secondary btn-lg" type="submit">
-                Send
-              </button>
+              <button class="btn btn-dark btn-lg taille-contact4" type="submit">SEND</button>
             </form>
-          </div>
+
+
+           </div>
+           <img src="assets/img/arbre.png" alt="" class="arbre">
+           
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!-- **************************************************************************************************
 **********************************************FOOTER**********************************************
 ************************************************************************************************** -->
