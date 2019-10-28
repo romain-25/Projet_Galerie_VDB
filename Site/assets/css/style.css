@@ -14,8 +14,9 @@
   border-style: solid;
   border-width: 5px;
 
-  height: calc(100vh - 1px);
+  height: calc(100vh - 15%);
 }
+
 
 /******************css HEADER*********************/
 
@@ -69,6 +70,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 
 }
 
@@ -104,6 +106,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 }
 
 #photographies2 .col-8{
@@ -114,10 +117,10 @@ header {
 }
 
 .image_photographies{
-    padding-top:45%;
+    padding-top:35%;
     padding-left: 10%;
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
 }
 
 .image_photographies img {
@@ -169,6 +172,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 980px;
+    padding-top: 5%;
 
 }
 
@@ -226,6 +230,8 @@ header {
     padding: 0rem;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 
 #myImg:hover {
@@ -336,6 +342,10 @@ header {
 /********************EVENT************************/
 
 /*********css formulaire *************************/
+#formulaire{
+    padding-top: 5%;
+}
+
 .leborder{
     width: 80vw;
     height: 70vh;
@@ -400,11 +410,10 @@ textarea{
 
 .arbre{
     z-index: 9000;
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
-    width: 45vw;
-    height: 80vh;
+
 }
 
 /***********media queries***********************/
@@ -424,8 +433,6 @@ textarea{
     display: none;
     /*   position: absolute;
         bottom: 0px;*/
-    }
-
     }
 
     .formulaire .center_div {
