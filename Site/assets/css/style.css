@@ -112,7 +112,7 @@ header {
 
 /************* TABLEAUX *************/
 #paintings{
-    background: no-repeat url(fond.png);
+    background: no-repeat url(fond1.png);
     background-position: center;
     height: 800px;
     background-position: center;
@@ -149,7 +149,7 @@ header {
 /* css Photographies */
 
 #photographies2{
-    background: no-repeat url(fond.png);
+    background: no-repeat url(fond2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,7 +214,7 @@ header {
 
 
 #event{
-    background: no-repeat url(fond.png);
+    background: no-repeat url(fond3.png);
     background-position: center;
     height: 800px;
     background-position: center;
@@ -392,8 +392,12 @@ header {
 /*********css formulaire *************************/
 #formulaire{
     padding-top: 1%;
+    background: no-repeat url(fond-contact.png);
+    background-position: center;
     height: 800px;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .leborder{
@@ -497,5 +501,16 @@ textarea{
       display: none;
     }
 
+
+}
+
+#sticky-footer{
+  background: no-repeat url(fond_footer.png);
+  background-position: center;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1%;
 
 }

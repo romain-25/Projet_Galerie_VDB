@@ -1,0 +1,501 @@
+/*******css general **************/
+body{
+  width: 100%;
+}
+p{
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 26px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 65px;
+  font-family: 'ModernSans Light';
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'ModernSans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ModernSans Light'), url('ModernSans-Light.otf') format('woff');
+  }
+
+#beton{
+  background: no-repeat url(beton1.jpg);
+  background-position: center;
+  height: calc(100vh - 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beton1{
+  background: no-repeat url(beton2.jpg);
+  background-position: center;
+  height: calc(100vh - 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.accueil {
+  /* border-style: inset;*/
+
+  border-style: solid;
+  border-width: 5px;
+
+  height: calc(100vh - 1%);
+}
+
+
+/******************css HEADER*********************/
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.img-pd {
+  margin-left: 20px;
+}
+
+.ul-pd {
+  margin-right: 40px;
+}
+
+.ul-pd ul li {
+  margin-right: 20px;
+}
+
+/****************css carousel************************/
+.carousel-indicators {
+  position: absolute;
+  bottom: -100px;
+}
+
+.carousel-item p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background: #999;
+  bottom: 50px;
+}
+
+.carousel-indicators .active {
+  background-color: #000000;
+}
+
+/************* TABLEAUX *************/
+#paintings{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+
+}
+
+#paintings .col-10 {
+  text-align: center;
+  margin-left: 1%;
+  padding-top: 10%;
+}
+
+#paintings #carouselExampleControls {
+  padding-top: 40%;
+}
+.carousel-inner{
+    box-shadow: 8px 8px 12px #555;
+}
+
+@media (max-width: 991.98px) {
+  #paintings .col-8 {
+    padding-top: 0%;
+    margin-left: 60px;
+  }
+
+  #paintings #carouselExampleControls {
+    padding-top: 0%;
+  }
+}
+
+/* css Photographies */
+
+#photographies2{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding-top: 1%;
+}
+
+#photographies2 .col-10{
+  text-align: center;
+  margin-left: 1%;
+  padding-top: 10%;
+  float: right;
+
+}
+
+.image_photographies{
+    padding-top:35%;
+    padding-left: 10%;
+    height: 800px;
+    width: 800px;
+}
+
+.image_photographies img {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 991.98px) {
+    #photographies2 .col-8{
+        padding-top: 0px;
+        margin-left: 60px;
+    
+    }
+    
+    .image_photographies{
+    
+        padding-top: 0%;
+
+    
+    }
+
+    .image_photographies{
+        padding-top: 0%;
+        height: 100%;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .image_photographies img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+
+.pd-20 {
+  padding-top: 20px;
+}
+
+/************* EVENTS *************/
+
+
+#event{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+
+}
+
+#event .col-10 {
+  text-align: center;
+  margin-left: 1%;
+  padding-top: 10%;
+}
+
+
+
+.image_events{
+    padding-top:15%;
+    height: 700px;
+    width: 700px;
+
+}
+
+.image_events img {
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 991.98px) {
+
+    #event .col-10{
+        padding-top: 0px;
+        margin-left: 60px;
+    
+    }
+    
+    .image_events{
+    
+        padding-top: 0px;
+
+    
+    }
+
+    .image_events{
+        padding-top:0%;
+        height: 50%;
+        width: 100%;
+        padding-left: 40%;
+    }
+
+    .image_events img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+/*css les photos ****/
+#myImg {
+    padding: 0rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#myImg:hover {
+    filter: brightness(35%);
+
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/********************EVENT************************/
+
+/*********css formulaire *************************/
+#formulaire{
+    padding-top: 1%;
+    height: 800px;
+    
+}
+
+.leborder{
+    width: 80vw;
+    height: 70vh;
+    border: solid 5px black;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+} 
+
+.element.style{
+    margin-left: 5%;
+}
+.formulaire .center_div {
+    margin: 0 auto;
+    width: 50%
+        /* value of your choice which suits your alignment */
+}
+
+section.formulaire{
+    position: relative;
+}
+
+.formulaire h1 {
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.formulaire .btn {
+    width: 20vw;
+}
+
+.taille-contact1{
+    width: 30vw;
+    height: 5vh;
+}
+
+.taille-contact2{
+    width: 30vw;
+    height: 5vh;
+}
+
+.taille-contact3{
+    width: 40vw;
+    height: 15vh;
+}
+
+.taille-contact4{
+    width: 20vw;
+    
+}
+
+.custom-select{
+    display: block;
+    width: 30vw;
+}
+
+textarea{
+    resize: none;
+}
+
+.arbre{
+    position: relative;
+    margin-left: 800px;
+    margin-top: 80px;
+    height: 500px;
+    width: 600px;
+
+}
+
+/***********media queries***********************/
+
+@media screen and (max-width: 1280px) {
+  /* Rédigez vos propriétés CSS ici */
+  .accueil {
+    /* border-style: inset;*/
+
+    border-style: solid;
+    border-width: 2px;
+
+    height: auto;
+  }
+
+  .carousel-indicators {
+    display: none;
+    /*   position: absolute;
+        bottom: 0px;*/
+    }
+
+    .formulaire .center_div {
+        margin: 0 auto;
+        width: auto;
+        /* value of your choice which suits your alignment */
+    }
+
+    .arbre{
+      display: none;
+    }
+
+
+}
