@@ -61,11 +61,15 @@ header {
 }
 
 /************* TABLEAUX *************/
-#paintings {
-  background: no-repeat url(fond.png);
-  background-position: center;
-  height: 980px;
-  width: 100%;
+#paintings{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: calc(100vh - 1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
+
 }
 
 #paintings .col-8 {
@@ -76,6 +80,9 @@ header {
 
 #paintings #carouselExampleControls {
   padding-top: 40%;
+}
+.carousel-inner{
+    box-shadow: 8px 8px 12px #555;
 }
 
 @media (max-width: 991.98px) {
@@ -91,48 +98,61 @@ header {
 
 /* css Photographies */
 
-.photographies,
-.formulaire {
- /* border-style: solid;
-  border-width: 5px;*/
-  height: calc(100vh - 1px);
-
-  margin-top: 0px;
-
-  background-image: url("../img/fond.png");
-  /* Full height */
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#photographies2{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
 }
 
-.photographies h1 {
-  float: right;
-  margin-right: 40px;
+#photographies2 .col-8{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 40%;
+
 }
 
-.photographies p {
-  text-align: center;
-  margin-right: 0;
-  margin-top: 30%;
-  margin-right: 0%;
-  margin-left: 20%;
+.image_photographies{
+    padding-top:45%;
+    padding-left: 10%;
+    height: 600px;
+    width: 600px;
 }
 
-.photographies img {
-  margin-top: 0%;
-  margin-bottom: 20px;
-  margin-left: 0%;
-  margin-right: 0%;
+.image_photographies img {
+    padding-right: 25px;
+    padding-bottom: 25px;
 }
 
-.photographies .img-pd {
-  margin-top: 10%;
-  margin-right: 30%;
-  margin-left: 0px;
+@media (max-width: 991.98px) {
+    #photographies2 .col-8{
+        padding-top: 50px;
+        margin-left: 60px;
+    
+    }
+    
+    .image_photographies{
+    
+        padding-top: 1%px;
+
+    
+    }
+
+    .image_photographies{
+        padding-top:15%;
+        height: 100%;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .image_photographies img {
+        height: 100px;
+        width: 100px;
+    }
 }
+
+
 
 .pd-20 {
   padding-top: 20px;
@@ -140,11 +160,16 @@ header {
 
 /************* EVENTS *************/
 
-#event {
-  background: no-repeat url(fond.png);
-  background-position: center;
-  height: 980px;
-  width: 100%;
+
+#event{
+    background: no-repeat url(fond.png);
+    background-position: center;
+    height: calc(100vh - 1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
+
 }
 
 #event .col-8 {
@@ -153,10 +178,13 @@ header {
   padding-top: 35%;
 }
 
-.image_events {
-  padding-top: 15%;
-  height: 700px;
-  width: 700px;
+
+
+.image_events{
+    padding-top:15%;
+    height: 700px;
+    width: 700px;
+
 }
 
 .image_events img {
@@ -165,26 +193,47 @@ header {
 }
 
 @media (max-width: 991.98px) {
-  #event .col-8 {
-    padding-top: 50px;
-    margin-left: 60px;
-  }
 
-  .image_events {
-    padding-top: 50px;
-  }
+    #event .col-8{
+        padding-top: 50px;
+        margin-left: 60px;
+    
+    }
+    
+    .image_events{
+    
+        padding-top: 50px;
+
+    
+    }
+
+    .image_events{
+        padding-top:15%;
+        height: 50%px;
+        width: 50%;
+        padding-left: 40%;
+    }
+
+    .image_events img {
+        height: 100px;
+        width: 100px;
+    }
+
 }
 
 /*css les photos ****/
 #myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+    padding: 0rem;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 #myImg:hover {
-  opacity: 0.7;
+    filter: brightness(35%);
+
 }
+
+
 
 /* The Modal (background) */
 .modal {
@@ -320,16 +369,15 @@ header {
     display: none;
     /*   position: absolute;
         bottom: 0px;*/
-  }
+    }
 
-  .photographies img {
-    width: 100px;
-    height: 100px;
-  }
+    }
 
-  .formulaire .center_div {
-    margin: 0 auto;
-    width: auto;
-    /* value of your choice which suits your alignment */
-  }
+    .formulaire .center_div {
+        margin: 0 auto;
+        width: auto;
+        /* value of your choice which suits your alignment */
+    }
+
+
 }
