@@ -26,3 +26,10 @@ span.onclick = function() {
 }
 
 /* fin script de sphotos ***************/
+<<<<<<< Updated upstream
+=======
+
+/*****scripte les outre photos************** */
+
+var modal = document.getElementById("myModal01");
+>>>>>>> Stashed changes
