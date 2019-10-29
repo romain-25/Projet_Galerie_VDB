@@ -161,13 +161,12 @@ header {
   text-align: center;
   margin-left: 1%;
   padding-top: 10%;
-  float: right;
 
 }
 
 .image_photographies{
     padding-top:35%;
-    padding-left: 10%;
+    padding-left: 5%;
     height: 800px;
     width: 800px;
 }
