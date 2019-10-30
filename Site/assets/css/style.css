@@ -1,4 +1,9 @@
 /*******css general **************/
+```
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   width: 100%;
 }
@@ -267,8 +272,8 @@ header {
     }
 
     .image_events img {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
 }
